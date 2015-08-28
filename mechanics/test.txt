@@ -1,0 +1,10 @@
+#Start Story
+(0,0)::Once Upon a Time, A man lived in a castle. But a bear came in and he had to make a choice. 
+0(1,2)::Would you Like to Flee or Fight::Flee|Fight
+
+(0,1)::The Man Jumped through a window and the bear could not follow.  The man survived.
+(0,2)::The Man picked up a large sword and charged the bear.
+2(3,4,5)(30,30,40)::
+(2,3)::The bear then ate him.
+(2,4)::Swinging his mighty sword he jumped at the bear cutting of the bears head.  The bear was slain.
+(2,5)::Swinging his mighty sword he jumped at the bear slashing his nose.  The bear was hurt and ran away.

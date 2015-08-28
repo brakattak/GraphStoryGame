@@ -1,0 +1,43 @@
+#Start Story
+(0,0)::Once Upon a Time, A man lived in a castle. But a bear came in and he had to make a choice. 
+0(1,2)::Flee or Fight::Flee|Fight
+
+(0,1)::The man jumped through a window and the bear could not follow.  The man survived.
+(0,2)::The man picked up a large sword and charged the bear.
+
+2(3,4,5)(15,15,70)::
+(2,3)::The bear then ate him.
+(2,4)::Swinging with all his might he jumped at the bear and cut off it's head.  The bear was slain.
+(2,5)::Swinging with all his might he jumped at the bear but only slashed his nose.  The bear was hurt and ran away.
+
+4(6)(100)::
+(4,6)::The man was happy and mounted the bears head on his wall
+
+5(7,8)::Should you chase the bear?::Yes|No
+(5,7)::
+7(9,10)(50,50)::
+(7,9)::You lose the trail of the bear.
+(7,10)::You track down the beer hiding in a tree.
+(5,8)::You relax knowing you are safe.  However the bear haunts your memory forever more.
+
+9(5,5,11,11)::Head home or continue searching::head home|home|continue|continue searching
+10(12,12,12,13,13,13)::Should you climb after it or cut down the tree::climb after it|climb|climb after the bear|cut it down|cut down the tree|cut tree
+(9,5)::You walk home mad.  Are you sure you want to do this?
+(9,11)::
+11(14,15)(20,80)::
+(11,14)::You get terribly lost.  You die of exposure.
+(11,15)::You find the bear!!  And its hiding in a tree.
+15(10,3)(100,0)::
+
+(10,12)::The bear hits you on your way up.  You fall and get impaled on a branch.
+(10,13)::You tree begins to give under the swings of your sword.
+13(16,17,18,19)(15,15,30,40)::
+
+(13,16)::The tree tips the wrong way and falls toward you.  In a vain attempt you dive out off the way.  However you are crushed.
+(13,17)::The bear runs down the tree landing on you head.  You are crushed.
+(13,18)::The bear runs down the tree.  You react with lighting speed and slice the bear in half. You return home knowing you have stopped the threat.
+(13,19)::The tree falls and the bear too.  The impact with the ground injures the bear.
+
+19(20,20,20,21,21,21)::Kill the bear or let it die in pain?::kill||kill it|kill the bear||die||let it die||let it die in pain
+(19,20)::The bear dies in silent dignity. You return home.
+(19,21)::You monster
